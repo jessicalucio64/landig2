@@ -13,18 +13,25 @@
   flex-direction: column;
   align-items: center;
 }
-.fondo__img{
+.contanier__titulos{
+  height: 100vh;
+  width: 100%;
+  object-fit: contain;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.contanier__titulos .fondo__img{
   object-fit: cover;
   width: 100%;
   position: absolute;
   z-index: -1;
 }
-.titulo__container{
-  margin-top: 4%;
- 
-}
 
-.titulo__container > h1 {
+
+.contanier__titulos .titulo__container > h1 {
   color: var(--dorado);
   font-family: var(--ops);
   font-size: 1em;
@@ -35,9 +42,10 @@
   align-items: center;
   justify-content: center;
   width: 120%;
-    
+  margin-top: 20%;  
    
 }
+
 .titulo__container .titulo{
   font-size: 4em;
   font-family: var(--bree);
@@ -56,15 +64,77 @@
   padding-right: 5%;
   
 }
+
 .subtitulo__container{
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   margin-left: -85%;
-  margin-top: 7%;
+  margin-top: 15%;
   color: var(--dorado);
   font-family: var(--ops);
   font-size: 0.6em;
   font-weight: 50;
   letter-spacing: 2.5px;
   line-height: 20px;
+}
+.container__textos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 22%;
+  margin-left: 20%;
+  font-family: var(--ops);
+  font-size: 1.2em;
+  font-weight: 200;
+  color: white;
+  width: 50%;
+}
+.boton__whatsapp{
+  display: flex;
+  font-family: var(--ops); 
+  background: none;
+  border: none;
+  
+  padding: 0;
+  width: 50%;
+
+
+}
+.container__whatsapp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--ops);
+  border-radius: 12px;
+  border: var(--dorado) 2px solid;
+  width: 50%;
+  height: 40px;
+  color: white;
+}
+.img__whatsapp{
+  width: 10%;
+  
+}
+.texto__whatsapp{
+  font-family: var(--ops);
+
+}
+.container2{
+  height: 100vh;
+  width: 100%;
+  object-fit: contain;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+.container2 .fondo__img{
+  margin-top: -9%;
+  object-fit: cover;
+  width: 100%;
+  position: absolute;
+  z-index: -2;
 }
