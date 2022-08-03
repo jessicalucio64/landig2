@@ -307,8 +307,36 @@ const Landing = () => {
           <div className='especificaciones__valencia'>
             <img src={terreno} className='icono__valencia' alt=""/>
             <div className='especificaciones__texto_valencia'>
-              <p className='especificaciones__texto__titulo_valencia'>m2 de terreno:</p>
-              <p className='especificaciones__texto__subtitulo_valencia'>140 ms</p>
+              <p className='especificaciones__texto__titulo'>m2 de terreno:</p>
+              <p className='especificaciones__texto__subtitulo'>140 ms</p>
+            </div>
+          </div>
+          <div className='especificaciones__valencia'>
+            <img src={terreno} className='icono__valencia' alt=""/>
+            <div className='especificaciones__texto_valencia'>
+              <p className='especificaciones__texto__titulo'>m2 de terreno:</p>
+              <p className='especificaciones__texto__subtitulo'>140 ms</p>
+            </div>
+          </div>
+          <div className='especificaciones__valencia'>
+            <img src={terreno} className='icono__valencia' alt=""/>
+            <div className='especificaciones__texto_valencia'>
+              <p className='especificaciones__texto__titulo'>m2 de terreno:</p>
+              <p className='especificaciones__texto__subtitulo'>140 ms</p>
+            </div>
+          </div>
+          <div className='especificaciones__valencia'>
+            <img src={terreno} className='icono__valencia' alt=""/>
+            <div className='especificaciones__texto_valencia'>
+              <p className='especificaciones__texto__titulo'>m2 de terreno:</p>
+              <p className='especificaciones__texto__subtitulo'>140 ms</p>
+            </div>
+          </div>
+          <div className='especificaciones__valencia'>
+            <img src={terreno} className='icono__valencia' alt=""/>
+            <div className='especificaciones__texto_valencia'>
+              <p className='especificaciones__texto__titulo'>m2 de terreno:</p>
+              <p className='especificaciones__texto__subtitulo'>140 ms</p>
             </div>
           </div>
           
@@ -322,7 +350,7 @@ const Landing = () => {
             </div>
           </button>
           
-        </div>
+          </div>
   
           </div>
 
