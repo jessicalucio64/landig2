@@ -27,12 +27,12 @@ const Landing = () => {
         
       <div className='container__textos'>
         <p>Agenda una cita para conocer tu nueva casa</p>
-        <a href="#" className='boton__whatsapp'>
+        <button href="#" className='boton__whatsapp'>
           <div className='container__whatsapp'>
             <img src={whatsapp} className='img__whatsapp' alt=""/>
             <p className='texto__whatsapp'>Enviar WhatsApp</p>
           </div>
-        </a>
+        </button>
       </div>
       <div className='decoracion'>
         <div className='decoracion__verde'></div>
@@ -45,12 +45,12 @@ const Landing = () => {
           <h2> Fraccionamiento <span className='span__verde'>TIPO HACIENDA</span> ubicada en la Florida S.L.P</h2>
         </div>
 
-        <a href="#" className='boton__mapa'>
+        <button href="#" className='boton__mapa'>
           <div className='container__mapa'>
             <img src={mapa} className='img__mapa' alt=""/>
             <p className='texto__mapa'>Enviar WhatsApp</p>
           </div>
-        </a>
+        </button>
 
       </div>
       <div className='container__granada'>
@@ -92,18 +92,20 @@ const Landing = () => {
               <p className='especificaciones__texto__subtitulo'>1</p>
             </div>
           </div>
-          <a href="#" className='boton__visita'>
+          <button href="#" className='boton__visita'>
             <div className='container__visita'>
               <img src={whatsapp} className='img__visita' alt=""/>
               <p className='texto__visita'>Agendar Visita</p>
             </div>
-          </a>
+          </button>
           
         </div>
         
         
         
       </div>
+      
+      
 
 
     </div>
