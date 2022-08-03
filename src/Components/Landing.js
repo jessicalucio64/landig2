@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Landing.css";
+import "./Landing.scss";
 import fondo from '../media/iconografia-hacienda-valbuena-escritorio.webp';
 import whatsapp from '../media/whatsapp-hacienda-valbuena.svg';
 import fondo2 from '../media/fondo-maps-escritorio.webp';
@@ -10,7 +11,10 @@ import metros from '../media/iconos/metros-de-construccion-hacienda-valbuena.svg
 import dormitorios from '../media/iconos/dormitorios-hacienda-valbuena.svg';
 import baños from '../media/iconos/dormitorios-hacienda-valbuena.svg';
 import balcon from '../media/iconos/dormitorios-hacienda-valbuena.svg';
-
+import cocina from '../media/Granada/cocina-hacienda-valbuena-granada.webp';
+import comedor from '../media/Granada/comedor-hacienda-valbuena-granada.webp';
+import cuarto2 from '../media/Granada/cuarto-dos-hacienda-valbuena-granada.webp';
+import cuarto3 from '../media/Granada/cuarto-tres-hacienda-valbuena-granada.webp';
 
 const Landing = () => {
   return (
@@ -53,8 +57,29 @@ const Landing = () => {
         </button>
 
       </div>
+      <div className='slider'>
+
+        <div class="container">
+        <ul class="slides">
+          <li id="slide1"><img src={granada} className='' alt=""/></li>
+          <li id="slide2"><img src={cocina} className='' alt=""/></li>
+          <li id="slide3"><img src={comedor} className='' alt=""/></li>
+          <li id="slide4"><img src={cuarto2} className='' alt=""/></li>
+          <li id="slide5"><img src={cuarto3} className='' alt=""/></li>
+        </ul>
+
+        <ul class="thumbnails">
+          <li><a href="#slide1"><img src={granada} className='' alt=""/></a></li>
+          <li><a href="#slide2"><img src={cocina} className='' alt=""/></a></li>
+          <li><a href="#slide3"><img src={comedor} className='' alt=""/></a></li>
+          <li><a href="#slide4"><img src={cuarto2} className='' alt=""/></a></li>
+          <li><a href="#slide5"><img src={cuarto3} className='' alt=""/></a></li>
+        </ul>
+      </div>
+
+      </div>
       <div className='container__granada'>
-        <img src={granada} className='granada__img' alt=""/>
+        
         <div className='container__granada__texto'>
           <h3 className='titulo__granada'>GRANADA</h3>
           <div className='especificaciones__granada'>
@@ -104,6 +129,29 @@ const Landing = () => {
         
         
       </div>
+      <div className='slider2'>
+
+        <div class="container">
+        <ul class="slides1">
+          <li id="slide11"><img src={granada} className='' alt=""/></li>
+          <li id="slide12"><img src={cocina} className='' alt=""/></li>
+          <li id="slide13"><img src={comedor} className='' alt=""/></li>
+          <li id="slide14"><img src={cuarto2} className='' alt=""/></li>
+          <li id="slide15"><img src={cuarto3} className='' alt=""/></li>
+        </ul>
+
+        <ul class="thumbnails1">
+          <li><a href="#slide11"><img src={granada} className='' alt=""/></a></li>
+          <li><a href="#slide12"><img src={cocina} className='' alt=""/></a></li>
+          <li><a href="#slide13"><img src={comedor} className='' alt=""/></a></li>
+          <li><a href="#slide14"><img src={cuarto2} className='' alt=""/></a></li>
+          <li><a href="#slide15"><img src={cuarto3} className='' alt=""/></a></li>
+        </ul>
+      </div>
+
+      </div>
+      
+     
       
       
 

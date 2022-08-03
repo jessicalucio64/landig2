@@ -155,6 +155,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 5%;
   
 
 }
@@ -222,24 +223,24 @@
   display: flex;
   margin-top: 5%;
   margin-left: -20px;
+  margin-bottom: 10%;
   
 
 }
-.granada__img{
-  width: 70%;
-  margin-left: 5%;
- 
-}
+
 .container__granada__texto{
-  width: 45%;
-  height: 50vh;
+  width: 35%;
+  height: 60vh;
   margin-right: -0.5%;
   border-radius: 5% 0% 0% 5%;
   background: white;
   padding-left: 4%;
-  margin-left: -5%;
-  margin-top: 10%;
+  margin-left: 65%;
+  margin-top: -45%;
   box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+  position: relative;
+  z-index: 10;
+  
 }
 .titulo__granada{
   font-size: 3em;
@@ -312,4 +313,23 @@
 .texto__visita{
   font-family: var(--ops);
 
+}
+.demo {
+  width:450px;
+}
+ul {
+  list-style: none outside none;
+  padding-left: 0;
+  margin-bottom:0;
+}
+li {
+  display: block;
+  float: left;
+  margin-right: 6px;
+  cursor:pointer;
+}
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
 }
