@@ -216,7 +216,7 @@
 
 }
 .container__granada{
-  height: 100vh;
+  
   width: 100%;
   object-fit: contain;
   color: black;
@@ -227,12 +227,59 @@
   
 
 }
+.container__mallorca{
+  
+  width: 10%;
+  object-fit: contain;
+  color: black;
+  display: flex;
+  
+  
+
+}
+.container__bilbao{
+  height: 100vh;
+  width: 100%;
+  object-fit: contain;
+  color: black;
+  display: flex;
+  margin-top: 5%;
+  margin-left: -130%;
+  margin-bottom: 10%;
+
+}
+.container__mallorca{
+  
+  width: 100%;
+  object-fit: contain;
+  color: black;
+  display: flex;
+  margin-top: -10%;
+  margin-left: -0.5%;
+  margin-bottom: 10%;
+  
+
+}
 
 .container__granada__texto{
   width: 35%;
   height: 60vh;
   margin-right: -0.5%;
   border-radius: 5% 0% 0% 5%;
+  background: white;
+  padding-left: 4%;
+  margin-left: 65%;
+  margin-top: -45%;
+  box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+  position: relative;
+  z-index: 10;
+  
+}
+.container__bilbao__texto{
+  width: 35%;
+  height: 60vh;
+  margin-right: -0.5%;
+  border-radius: 0% 5% 5% 0%;
   background: white;
   padding-left: 4%;
   margin-left: 65%;
@@ -332,4 +379,9 @@ img {
   display: block;
   height: auto;
   max-width: 100%;
+}
+.fondo__verde{
+  width: 100%;
+  background: linear-gradient( 20deg, var(--VERDE_OSCURO), var(--VERDE_CLARO)); 
+  
 }

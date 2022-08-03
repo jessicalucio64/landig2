@@ -1,0 +1,38 @@
+.container__valencia{
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    .valencia__container{
+        width: 100%;
+        padding-left: 10%;
+        display: flex;
+        justify-content: center;
+        
+        
+        .siider__valencia{
+            display: flex;
+            width: 300%;
+        }
+        .container__valencia{
+            
+            .container__valencia__texto{
+               
+                border-radius: 5% 0% 0% 5%;
+                background: white;
+                padding-left: 4%;
+                margin-left: 65%;
+                margin-top: -45%;
+                box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+                position: relative;
+                z-index: 10;
+            }
+            
+    
+        }
+
+    }
+    
+}

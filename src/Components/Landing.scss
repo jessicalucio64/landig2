@@ -7,6 +7,13 @@
     height: 100%;
     margin-left: 30%;
   }
+  .slider3 {
+    box-sizing: border-box;
+    height: 100%;
+    margin-right: 10%;
+    padding-left: 10%;
+    margin-top: 5%;
+  }
   
   *,
   *::before,
@@ -29,8 +36,8 @@
     
     li {
       flex: auto; 
-      margin-left: -6.2%;
-      width: 2%;
+      margin-left: -7.3%;
+      
     }
   
     a {
@@ -117,6 +124,14 @@
  
   
   @keyframes slide {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+   @keyframes slide {
     0% {
       transform: translateY(-100%);
     }
