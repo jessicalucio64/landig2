@@ -1,7 +1,8 @@
-import React from 'react'
+import React from 'react';
 import "./Landing.css";
 import "./Landing.scss";
 import "./Granada.scss";
+import "./Granada.js";
 import fondo from '../media/iconografia-hacienda-valbuena-escritorio.webp';
 import whatsapp from '../media/whatsapp-hacienda-valbuena.svg';
 import fondo2 from '../media/fondo-maps-escritorio.webp';
@@ -18,6 +19,7 @@ import cuarto2 from '../media/Granada/cuarto-dos-hacienda-valbuena-granada.webp'
 import cuarto3 from '../media/Granada/cuarto-tres-hacienda-valbuena-granada.webp';
 import hall from '../media/iconos/hall-de-tv-hacienda-valbuena.svg';
 import terraza from '../media/iconos/terraza-hacienda-valbuena.svg';
+
 
 const Landing = () => {
  
@@ -109,14 +111,14 @@ const Landing = () => {
                 <p className='especificaciones__texto__subtitulo'>3</p>
               </div>
             </div>
-            <div className='especificaciones__fraccionamiento'>
+            <div className='especificaciones__fraccionamiento especificaciones__fraccionamiento1'>
               <img src={baños} className='icono__fraccionamiento' alt=""/>
               <div className='especificaciones__texto_fraccionamiento'>
                 <p className='especificaciones__texto__titulo'>Baños:</p>
                 <p className='especificaciones__texto__subtitulo'>3</p>
               </div>
             </div>
-            <div className='especificaciones__fraccionamiento'>
+            <div className='especificaciones__fraccionamiento especificaciones__fraccionamiento2'>
               <img src={balcon} className='icono__fraccionamiento' alt=""/>
               <div className='especificaciones__texto_fraccionamiento'>
                 <p className='especificaciones__texto__titulo'>Balcón:</p>
@@ -149,7 +151,7 @@ const Landing = () => {
 
       <div className='container__fraccionamiento1'>
         <div className='fraccionamiento__container1'>
-        <div className='container__fraccionamiento1'>
+        <div className='container__fraccionamiento1 container__fraccionamiento1_'>
           <div className='container__fraccionamiento__texto1'>
             <h3 className='titulo__fraccionamiento1'>BILBAO</h3>
             <div className='especificaciones__fraccionamiento1'>
@@ -173,14 +175,14 @@ const Landing = () => {
                 <p className='especificaciones__texto__subtitulo1'>3</p>
               </div>
             </div>
-            <div className='especificaciones__fraccionamiento1'>
+            <div className='especificaciones__fraccionamiento1 especificaciones__fraccionamiento2'>
               <img src={baños} className='icono__fraccionamiento1' alt=""/>
               <div className='especificaciones__texto_fraccionamiento1'>
                 <p className='especificaciones__texto__titulo1'>Baños:</p>
                 <p className='especificaciones__texto__subtitulo1'>3</p>
               </div>
             </div>
-            <div className='especificaciones__fraccionamiento1'>
+            <div className='especificaciones__fraccionamiento1 especificaciones__fraccionamiento3'>
               <img src={balcon} className='icono__fraccionamiento1' alt=""/>
               <div className='especificaciones__texto_fraccionamiento1'>
                 <p className='especificaciones__texto__titulo1'>Balcón:</p>
@@ -200,8 +202,8 @@ const Landing = () => {
           </div>
           <div className='siider__fraccionamiento1'>
 
-            <div class="container">
-            <ul class="slides">
+            <div class="container1">
+            <ul class="slides1">
               <li id="slide11"><img src={granada} className='' alt=""/></li>
               <li id="slide12"><img src={cocina} className='' alt=""/></li>
               <li id="slide13"><img src={comedor} className='' alt=""/></li>
@@ -209,7 +211,7 @@ const Landing = () => {
               <li id="slide15"><img src={cuarto3} className='' alt=""/></li>
             </ul>
 
-            <ul class="thumbnails">
+            <ul class="thumbnails1">
               <li><a href="#slide11"><img src={granada} className='' alt=""/></a></li>
               <li><a href="#slide12"><img src={cocina} className='' alt=""/></a></li>
               <li><a href="#slide13"><img src={comedor} className='' alt=""/></a></li>
@@ -369,8 +371,8 @@ const Landing = () => {
           </div>
           <div className='siider__fraccionamiento1'>
 
-            <div class="container">
-            <ul class="slides">
+            <div class="container1">
+            <ul class="slides1">
               <li id="slide31"><img src={granada} className='' alt=""/></li>
               <li id="slide32"><img src={cocina} className='' alt=""/></li>
               <li id="slide33"><img src={comedor} className='' alt=""/></li>
@@ -378,7 +380,7 @@ const Landing = () => {
               <li id="slide35"><img src={cuarto3} className='' alt=""/></li>
             </ul>
 
-            <ul class="thumbnails">
+            <ul class="thumbnails1">
               <li><a href="#slide31"><img src={granada} className='' alt=""/></a></li>
               <li><a href="#slide32"><img src={cocina} className='' alt=""/></a></li>
               <li><a href="#slide33"><img src={comedor} className='' alt=""/></a></li>
@@ -542,8 +544,8 @@ const Landing = () => {
           </div>
           <div className='siider__fraccionamiento1'>
 
-            <div class="container">
-            <ul class="slides">
+            <div class="container1">
+            <ul class="slides1">
               <li id="slide51"><img src={granada} className='' alt=""/></li>
               <li id="slide52"><img src={cocina} className='' alt=""/></li>
               <li id="slide53"><img src={comedor} className='' alt=""/></li>
@@ -551,7 +553,7 @@ const Landing = () => {
               <li id="slide55"><img src={cuarto3} className='' alt=""/></li>
             </ul>
 
-            <ul class="thumbnails">
+            <ul class="thumbnails1">
               <li><a href="#slide51"><img src={granada} className='' alt=""/></a></li>
               <li><a href="#slide52"><img src={cocina} className='' alt=""/></a></li>
               <li><a href="#slide53"><img src={comedor} className='' alt=""/></a></li>
@@ -688,7 +690,7 @@ const Landing = () => {
           <p className='sub1'>Drop Intelligence Business</p>
         </div>
       </div>
-    
+      
 
     </div>
   )

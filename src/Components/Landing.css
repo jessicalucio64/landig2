@@ -38,7 +38,6 @@
   z-index: -1;
 }
 
-
 .contanier__titulos .titulo__container > h1 {
   color: var(--DORADO_CLARO);
   font-family: var(--ops);
@@ -121,7 +120,7 @@
   color: white;
 }
 .img__whatsapp{
-  width: 10%;
+  width: 5%;
   
 }
 .texto__whatsapp{
@@ -397,8 +396,8 @@ img {
   height: auto;
   max-width: 100%;
 }
-.fondo__verde{
-  width: 100%;
-  background: linear-gradient( 20deg, var(--VERDE_OSCURO), var(--VERDE_CLARO)); 
-  
+@media screen and (max-width: 991px){
+  .decoracion{
+    display: none;
+  }
 }
