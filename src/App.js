@@ -1,6 +1,5 @@
 import './App.css';
 import Landing from "./Components/Landing"; 
-import Granada from "./Components/Granada";
 
 function App() {
   return (

@@ -344,6 +344,23 @@
 
 
 }
+.boton__visita2{
+  display: flex;
+  font-family: var(--ops); 
+  background: none;
+  border: none;
+  padding: 0;
+  width: 35%;
+  height: 5vh;
+  border: var(--VERDE_CLARO) 2px solid;
+  background-color: var(--VERDE_OSCURO);
+  margin-top: -7%;
+  margin-left: 50%;
+  border-radius: 12px;
+  box-shadow: -4px 4px 34px -3px rgba(0,0,0,0.75);
+
+
+}
 .container__visita{
   display: flex;
   justify-content: center;
