@@ -401,3 +401,782 @@ img {
     display: none;
   }
 }
+#css-carousel{
+  
+  margin-top: -8%;
+  width: 100%;
+  height: 120%;
+  margin-left: -5%;
+ 
+}
+
+#css-carousel input{
+  display: none;
+}
+
+.main-img-cont{
+  width: 100%;
+  height: 600px;
+  
+  position: relative;
+  overflow: hidden;
+}
+
+.main-img{
+  width: 97.75%;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  position: absolute;
+  transition: all ease-out 0.5s;
+}
+
+#img-1-radio:checked ~ #img-1{
+  opacity: 1;
+}
+
+#img-2-radio:checked ~ #img-2{
+  opacity: 1;
+}
+
+#img-3-radio:checked ~ #img-3{
+  opacity: 1;
+}
+
+#img-4-radio:checked ~ #img-4{
+  opacity: 1;
+}
+#img-5-radio:checked ~ #img-5{
+  opacity: 1;
+}
+#img-6-radio:checked ~ #img-6{
+  opacity: 1;
+}
+#img-7-radio:checked ~ #img-7{
+  opacity: 1;
+}
+#img-8-radio:checked ~ #img-8{
+  opacity: 1;
+}
+#img-9-radio:checked ~ #img-9{
+  opacity: 1;
+}
+
+.img-thumbnails{
+  display: flex;
+}
+
+.img-thumb{
+  width: 127px;
+  height: 120px;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+label{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.img-1{
+  background-image: url('../media/Granada/cocina-hacienda-valbuena-granada.webp')
+}
+
+.img-2{
+  background-image: url('../media/Granada/comedor-hacienda-valbuena-granada.webp')
+}
+
+.img-3{
+  background-image: url('../media/Granada/cuarto-dos-hacienda-valbuena-granada.webp')
+}
+
+.img-4{
+  background-image: url('../media/Granada/cuarto-tres-hacienda-valbuena-granada.webp')
+}
+.img-5{
+  background-image: url('../media/Granada/cuarto-uno--hacienda-valbuena-granada.webp')
+}
+.img-6{
+  background-image: url('../media/Granada/exterior-hacienda-valbuena-granada.webp')
+}
+.img-7{
+  background-image: url('../media/Granada/frente-hacienda-valbuena-granada.webp')
+}
+.img-8{
+  background-image: url('../media/Granada/sala-hacienda-valbuena-granada.webp')
+}
+.img-9{
+  background-image: url('../media/Granada/tres-en-uno-hacienda-valbuena-granada.webp')
+}
+/*----------slider2---------------*/
+#css-carousel1{
+  
+  margin-top: -8%;
+  width: 100%;
+  height: 120%;
+  margin-left: -10%;
+ 
+}
+
+#css-carousel1 input{
+  display: none;
+}
+
+.main-img-cont1{
+  width: 100%;
+  height: 650px;
+  
+  position: relative;
+  overflow: hidden;
+}
+
+.main-img1{
+  width: 100%;
+  height: 680px;
+  background-position: center;
+  background-size: cover;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  position: absolute;
+  transition: all ease-out 0.5s;
+}
+
+#img-1-radio1:checked ~ #img-11{
+  opacity: 1;
+}
+
+#img-2-radio1:checked ~ #img-21{
+  opacity: 1;
+}
+
+#img-3-radio1:checked ~ #img-31{
+  opacity: 1;
+}
+
+#img-4-radio1:checked ~ #img-41{
+  opacity: 1;
+}
+#img-5-radio1:checked ~ #img-51{
+  opacity: 1;
+}
+#img-6-radio1:checked ~ #img-61{
+  opacity: 1;
+}
+#img-7-radio1:checked ~ #img-71{
+  opacity: 1;
+}
+
+
+.img-thumbnails1{
+  display: flex;
+}
+
+.img-thumb1{
+  width: 157px;
+  height: 125px;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  
+}
+
+label{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.img-11{
+  background-image: url('../media/bilbao/cocina-hacienda-valbuena-bilbao.webp')
+}
+
+.img-21{
+  background-image: url('../media/bilbao/cuarto-bebe--hacienda-valbuena-bilbao.webp')
+}
+
+.img-31{
+  background-image: url('../media/bilbao/cuarto-dos--hacienda-valbuena-bilbao.webp')
+}
+
+.img-41{
+  background-image: url('../media/bilbao/exterior-hacienda-valbuena-bilbao.webp')
+}
+.img-51{
+  background-image: url('../media/bilbao/frente-hacienda-valbuena-bilbao.webp')
+}
+.img-61{
+  background-image: url('../media/bilbao/sala-y-comedor-hacienda-valbuena-bilbao.webp')
+}
+.img-71{
+  background-image: url('../media/bilbao/tres-en-uno-hacienda-valbuena-bilbao.webp')
+}
+/*-----slider3------*/
+#css-carousel2{
+  
+  margin-top: 3%;
+  width: 100%;
+  height: 120%;
+  margin-left: -5%;
+ 
+}
+
+#css-carousel2 input{
+  display: none;
+}
+
+.main-img-cont2{
+  width: 100%;
+  height: 650px;
+  
+  position: relative;
+  overflow: hidden;
+}
+
+.main-img2{
+  width: 97.4%;
+  height: 680px;
+  background-position: center;
+  background-size: cover;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  position: absolute;
+  transition: all ease-out 0.5s;
+}
+
+#img-1-radio2:checked ~ #img-12{
+  opacity: 1;
+}
+
+#img-2-radio2:checked ~ #img-22{
+  opacity: 1;
+}
+
+#img-3-radio2:checked ~ #img-32{
+  opacity: 1;
+}
+
+#img-4-radio2:checked ~ #img-42{
+  opacity: 1;
+}
+#img-5-radio2:checked ~ #img-52{
+  opacity: 1;
+}
+#img-6-radio2:checked ~ #img-62{
+  opacity: 1;
+}
+#img-7-radio2:checked ~ #img-72{
+  opacity: 1;
+}
+#img-8-radio2:checked ~ #img-82{
+  opacity: 1;
+}
+
+
+.img-thumbnails2{
+  display: flex;
+}
+
+.img-thumb2{
+  width: 142px;
+  height: 125px;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  
+}
+
+label{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.img-12{
+  background-image: url('../media/mallorca/cocina-hacienda-valbuena-mallorca.webp')
+}
+
+.img-22{
+  background-image: url('../media/mallorca/comedor-hacienda-valbuena-mallorca.webp')
+}
+
+.img-32{
+  background-image: url('../media/mallorca/cuarto-dos-hacienda-valbuena-mallorca.webp')
+}
+
+.img-42{
+  background-image: url('../media/mallorca/cuarto-uno--hacienda-valbuena-mallorca.webp')
+}
+.img-52{
+  background-image: url('../media/mallorca/cuarto-y-baño-hacienda-valbuena-mallorca.webp')
+}
+.img-62{
+  background-image: url('../media/mallorca/frente-hacienda-valbuena-mallorca.webp')
+}
+.img-72{
+  background-image: url('../media/mallorca/sala-comedor-hacienda-valbuena-mallorca.webp')
+}
+.img-82{
+  background-image: url('../media/mallorca/sala-dos--hacienda-valbuena-mallorca.webp')
+}
+
+*-----slider4------*/
+#css-carousel3{
+  
+  margin-top: 3%;
+  width: 100%;
+  height: 120%;
+  margin-left: -5%;
+  margin-right: -5%;
+ 
+}
+
+#css-carousel3 input{
+  display: none;
+}
+
+.main-img-cont3{
+  width: 100%;
+  height: 650px;
+  
+  position: relative;
+  overflow: hidden;
+}
+
+.main-img3{
+  width: 100%;
+  height: 680px;
+  background-position: center;
+  background-size: cover;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  position: absolute;
+  transition: all ease-out 0.5s;
+}
+
+#img-1-radio3:checked ~ #img-13{
+  opacity: 1;
+}
+
+#img-2-radio3:checked ~ #img-23{
+  opacity: 1;
+}
+
+#img-3-radio3:checked ~ #img-33{
+  opacity: 1;
+}
+
+#img-4-radio3:checked ~ #img-43{
+  opacity: 1;
+}
+#img-5-radio3:checked ~ #img-53{
+  opacity: 1;
+}
+#img-6-radio3:checked ~ #img-63{
+  opacity: 1;
+}
+
+
+
+.img-thumbnails3{
+  display: flex;
+}
+
+.img-thumb3{
+  width: 200px;
+  height: 125px;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  
+}
+
+label{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.img-13{
+  background-image: url('../media/sevilla/cocina-hacienda-valbuena-sevilla.webp')
+}
+
+.img-23{
+  background-image: url('../media/sevilla/comedor-hacienda-valbuena-sevilla.webp')
+}
+
+.img-33{
+  background-image: url('../media/sevilla/cuarto-uno-hacienda-valbuena-sevilla.webp')
+}
+
+.img-43{
+  background-image: url('../media/sevilla/exterior-hacienda-valbuena-sevilla.webp')
+}
+.img-53{
+  background-image: url('../media/sevilla/frente-hacienda-valbuena-sevilla.webp')
+}
+.img-63{
+  background-image: url('../media/sevilla/sala-y-comedor-hacienda-valbuena-sevilla.webp')
+}
+/*----slider5----*/
+#css-carousel4{
+  
+  margin-top: -8%;
+  width: 100%;
+  height: 120%;
+  margin-left: -5%;
+ 
+}
+
+#css-carousel4 input{
+  display: none;
+}
+
+.main-img-cont4{
+  width: 100%;
+  height: 600px;
+  
+  position: relative;
+  overflow: hidden;
+}
+
+.main-img4{
+  width: 100%;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  position: absolute;
+  transition: all ease-out 0.5s;
+}
+
+#img-1-radio4:checked ~ #img-14{
+  opacity: 1;
+}
+
+#img-2-radio4:checked ~ #img-24{
+  opacity: 1;
+}
+
+#img-3-radio4:checked ~ #img-34{
+  opacity: 1;
+}
+
+#img-4-radio4:checked ~ #img-44{
+  opacity: 1;
+}
+#img-5-radio4:checked ~ #img-54{
+  opacity: 1;
+}
+#img-6-radio4:checked ~ #img-64{
+  opacity: 1;
+}
+#img-7-radio4:checked ~ #img-74{
+  opacity: 1;
+}
+#img-8-radio4:checked ~ #img-84{
+  opacity: 1;
+}
+
+
+.img-thumbnails4{
+  display: flex;
+}
+
+.img-thumb4{
+  width: 167px;
+  height: 120px;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+label{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.img-14{
+  background-image: url('../media/valencia/bano-hacienda-valbuena-valencia.webp')
+}
+
+.img-24{
+  background-image: url('../media/valencia/cuarto-dos-hacienda-valbuena-valencia.webp')
+}
+
+.img-34{
+  background-image: url('../media/valencia/cuarto-tres-hacienda-valbuena-valencia.webp')
+}
+
+.img-44{
+  background-image: url('../media/valencia/cuarto-uno-hacienda-valbuena-valencia.webp')
+}
+.img-54{
+  background-image: url('../media/valencia/frente-hacienda-valbuena-valencia.webp')
+}
+.img-64{
+  background-image: url('../media/valencia/hall-de-tv-hacienda-valbuena-valencia.webp')
+}
+.img-74{
+  background-image: url('../media/valencia/otro-aungulo-de-sala-hacienda-valbuena-valencia.webp')
+}
+.img-84{
+  background-image: url('../media/valencia/sala-y-comedor-hacienda-valbuena-valencia.webp')
+}
+/*---slider5---*/
+#css-carousel5{
+  
+  margin-top: -8%;
+  width: 100%;
+  height: 120%;
+  margin-left: -10%;
+ 
+}
+
+#css-carousel5 input{
+  display: none;
+}
+
+.main-img-cont5{
+  width: 100%;
+  height: 650px;
+  
+  position: relative;
+  overflow: hidden;
+}
+
+.main-img5{
+  width: 100%;
+  height: 680px;
+  background-position: center;
+  background-size: cover;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  position: absolute;
+  transition: all ease-out 0.5s;
+}
+
+#img-1-radio5:checked ~ #img-15{
+  opacity: 1;
+}
+
+#img-2-radio5:checked ~ #img-25{
+  opacity: 1;
+}
+
+#img-3-radio5:checked ~ #img-35{
+  opacity: 1;
+}
+
+#img-4-radio5:checked ~ #img-45{
+  opacity: 1;
+}
+#img-5-radio5:checked ~ #img-55{
+  opacity: 1;
+}
+#img-6-radio5:checked ~ #img-65{
+  opacity: 1;
+}
+#img-7-radio5:checked ~ #img-75{
+  opacity: 1;
+}
+
+
+.img-thumbnails5{
+  display: flex;
+}
+
+.img-thumb5{
+  width: 157px;
+  height: 125px;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  
+}
+
+label{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.img-15{
+  background-image: url('../media/bilbao/cocina-hacienda-valbuena-bilbao.webp')
+}
+
+.img-25{
+  background-image: url('../media/bilbao/cuarto-bebe--hacienda-valbuena-bilbao.webp')
+}
+
+.img-35{
+  background-image: url('../media/bilbao/cuarto-dos--hacienda-valbuena-bilbao.webp')
+}
+
+.img-45{
+  background-image: url('../media/bilbao/exterior-hacienda-valbuena-bilbao.webp')
+}
+.img-55{
+  background-image: url('../media/bilbao/frente-hacienda-valbuena-bilbao.webp')
+}
+.img-65{
+  background-image: url('../media/bilbao/sala-y-comedor-hacienda-valbuena-bilbao.webp')
+}
+.img-75{
+  background-image: url('../media/bilbao/tres-en-uno-hacienda-valbuena-bilbao.webp')
+}
+/*---slider6---*/
+
+#css-carousel6{
+  
+  margin-top: 3%;
+  width:100%;
+  height: 120%;
+  margin-left: -5%;
+ 
+}
+
+#css-carousel6 input{
+  display: none;
+}
+
+.main-img-cont6{
+  width: 100%;
+  height: 650px;
+  
+  position: relative;
+  overflow: hidden;
+}
+
+.main-img6{
+  width: 95.4%;
+  height: 680px;
+  background-position: center;
+  background-size: cover;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  position: absolute;
+  transition: all ease-out 0.5s;
+}
+
+#img-1-radio6:checked ~ #img-16{
+  opacity: 1;
+}
+
+#img-2-radio6:checked ~ #img-26{
+  opacity: 1;
+}
+
+#img-3-radio6:checked ~ #img-36{
+  opacity: 1;
+}
+
+#img-4-radio6:checked ~ #img-46{
+  opacity: 1;
+}
+#img-5-radio6:checked ~ #img-56{
+  opacity: 1;
+}
+#img-6-radio6:checked ~ #img-66{
+  opacity: 1;
+}
+#img-7-radio6:checked ~ #img-76{
+  opacity: 1;
+}
+#img-8-radio6:checked ~ #img-86{
+  opacity: 1;
+}
+#img-9-radio6:checked ~ #img-96{
+  opacity: 1;
+}
+#img-10-radio6:checked ~ #img-106{
+  opacity: 1;
+}
+#img-11-radio6:checked ~ #img-116{
+  opacity: 1;
+}
+#img-12-radio6:checked ~ #img-126{
+  opacity: 1;
+}
+
+
+
+.img-thumbnails6{
+  display: flex;
+}
+
+.img-thumb6{
+  width: 102px;
+  height: 125px;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  
+}
+
+label{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.img-16{
+  background-image: url('../media/madrid/bano-dos-hacienda-valbuena-madrid.webp')
+}
+
+.img-26{
+  background-image: url('../media/madrid/bano-principal-hacienda-valbuena-madrid.webp')
+}
+
+.img-36{
+  background-image: url('../media/madrid/cocina-hacienda-valbuena-madrid.webp')
+}
+
+.img-46{
+  background-image: url('../media/madrid/comedor-hacienda-valbuena-madrid.webp')
+}
+.img-56{
+  background-image: url('../media/madrid/cuarto-dos-hacienda-valbuena-madrid.webp')
+}
+.img-66{
+  background-image: url('../media/madrid/cuarto-uno-hacienda-valbuena-madrid.webp')
+}
+.img-76{
+  background-image: url('../media/madrid/escaleras-hacienda-valbuena-madrid.webp')
+}
+.img-86{
+  background-image: url('../media/madrid/exterior-hacienda-valbuena-madrid.webp')
+}
+.img-96{
+  background-image: url('../media/madrid/frente-hacienda-valbuena-madrid.webp')
+}
+.img-106{
+  background-image: url('../media/madrid/loft-hacienda-valbuena-madrid.webp')
+}
+.img-116{
+  background-image: url('../media/madrid/sala-hacienda-valbuena-madrid.webp')
+}
+.img-126{
+  background-image: url('../media/madrid/terraza-hacienda-valbuena-madrid.webp')
+}

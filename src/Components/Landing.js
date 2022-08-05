@@ -7,16 +7,13 @@ import fondo from '../media/iconografia-hacienda-valbuena-escritorio.webp';
 import whatsapp from '../media/whatsapp-hacienda-valbuena.svg';
 import fondo2 from '../media/fondo-maps-escritorio.webp';
 import mapa from '../media/localizacion-hacienda-valbuena.svg';
-import granada from '../media/frente-hacienda-valbuena-granada.webp';
+
 import terreno from '../media/iconos/terreno-hacienda-valbuena.svg';
 import metros from '../media/iconos/metros-de-construccion-hacienda-valbuena.svg';
 import dormitorios from '../media/iconos/dormitorios-hacienda-valbuena.svg';
 import baños from '../media/iconos/baños-hacienda-valbuena.svg';
 import balcon from '../media/iconos/balcon-hacienda-valbuena.svg';
-import cocina from '../media/Granada/cocina-hacienda-valbuena-granada.webp';
-import comedor from '../media/Granada/comedor-hacienda-valbuena-granada.webp';
-import cuarto2 from '../media/Granada/cuarto-dos-hacienda-valbuena-granada.webp';
-import cuarto3 from '../media/Granada/cuarto-tres-hacienda-valbuena-granada.webp';
+
 import hall from '../media/iconos/hall-de-tv-hacienda-valbuena.svg';
 import terraza from '../media/iconos/terraza-hacienda-valbuena.svg';
 
@@ -68,23 +65,39 @@ const Landing = () => {
         <div className='fraccionamiento__container'>
           <div className='siider__fraccionamiento'>
 
-            <div class="container">
-            <ul class="slides">
-              <li id="slide1"><img src={granada} className='' alt=""/></li>
-              <li id="slide2"><img src={cocina} className='' alt=""/></li>
-              <li id="slide3"><img src={comedor} className='' alt=""/></li>
-              <li id="slide4"><img src={cuarto2} className='' alt=""/></li>
-              <li id="slide5"><img src={cuarto3} className='' alt=""/></li>
-            </ul>
-
-            <ul class="thumbnails">
-              <li><a href="#slide1"><img src={granada} className='' alt=""/></a></li>
-              <li><a href="#slide2"><img src={cocina} className='' alt=""/></a></li>
-              <li><a href="#slide3"><img src={comedor} className='' alt=""/></a></li>
-              <li><a href="#slide4"><img src={cuarto2} className='' alt=""/></a></li>
-              <li><a href="#slide5"><img src={cuarto3} className='' alt=""/></a></li>
-            </ul>
-            </div>
+          <div id="css-carousel" >
+  <div class="main-img-cont">
+    <input id="img-1-radio" type="radio" name="selected-img" checked/>
+    <input id="img-2-radio" type="radio" name="selected-img"/>
+    <input id="img-3-radio" type="radio" name="selected-img"/>
+    <input id="img-4-radio" type="radio" name="selected-img"/>
+    <input id="img-5-radio" type="radio" name="selected-img"/>
+    <input id="img-6-radio" type="radio" name="selected-img"/>
+    <input id="img-7-radio" type="radio" name="selected-img"/>
+    <input id="img-8-radio" type="radio" name="selected-img"/>
+    <input id="img-9-radio" type="radio" name="selected-img"/>
+    <div id="img-1" class="main-img img-1"></div>
+    <div id="img-2" class="main-img img-2"></div>
+    <div id="img-3" class="main-img img-3"></div>
+    <div id="img-4" class="main-img img-4"></div>
+    <div id="img-5" class="main-img img-5"></div>
+    <div id="img-6" class="main-img img-6"></div>
+    <div id="img-7" class="main-img img-7"></div>
+    <div id="img-8" class="main-img img-8"></div>
+    <div id="img-9" class="main-img img-9"></div>
+  </div>
+  <div class="img-thumbnails">
+    <label for="img-1-radio"><div class="img-thumb img-1"></div></label>
+    <label for="img-2-radio"><div class="img-thumb img-2"></div></label>
+    <label for="img-3-radio"><div class="img-thumb img-3"></div></label>
+    <label for="img-4-radio"><div class="img-thumb img-4"></div></label>
+    <label for="img-5-radio"><div class="img-thumb img-5"></div></label>
+    <label for="img-6-radio"><div class="img-thumb img-6"></div></label>
+    <label for="img-7-radio"><div class="img-thumb img-7"></div></label>
+    <label for="img-8-radio"><div class="img-thumb img-8"></div></label>
+    <label for="img-9-radio"><div class="img-thumb img-9"></div></label>
+  </div>
+      </div>
 
           </div>
           <div className='container__fraccionamiento'>
@@ -200,25 +213,38 @@ const Landing = () => {
           </div>
   
           </div>
-          <div className='siider__fraccionamiento1'>
+          <div className='siider__fraccionamiento'>
 
-            <div class="container1">
-            <ul class="slides1">
-              <li id="slide11"><img src={granada} className='' alt=""/></li>
-              <li id="slide12"><img src={cocina} className='' alt=""/></li>
-              <li id="slide13"><img src={comedor} className='' alt=""/></li>
-              <li id="slide14"><img src={cuarto2} className='' alt=""/></li>
-              <li id="slide15"><img src={cuarto3} className='' alt=""/></li>
-            </ul>
-
-            <ul class="thumbnails1">
-              <li><a href="#slide11"><img src={granada} className='' alt=""/></a></li>
-              <li><a href="#slide12"><img src={cocina} className='' alt=""/></a></li>
-              <li><a href="#slide13"><img src={comedor} className='' alt=""/></a></li>
-              <li><a href="#slide14"><img src={cuarto2} className='' alt=""/></a></li>
-              <li><a href="#slide15"><img src={cuarto3} className='' alt=""/></a></li>
-            </ul>
-            </div>
+          <div id="css-carousel1" >
+  <div class="main-img-cont1">
+    <input id="img-1-radio1" type="radio" name="selected-img1" checked/>
+    <input id="img-2-radio1" type="radio" name="selected-img1"/>
+    <input id="img-3-radio1" type="radio" name="selected-img1"/>
+    <input id="img-4-radio1" type="radio" name="selected-img1"/>
+    <input id="img-5-radio1" type="radio" name="selected-img1"/>
+    <input id="img-6-radio1" type="radio" name="selected-img1"/>
+    <input id="img-7-radio1" type="radio" name="selected-img1"/>
+   
+    <div id="img-11" class="main-img1 img-11"></div>
+    <div id="img-21" class="main-img1 img-21"></div>
+    <div id="img-31" class="main-img1 img-31"></div>
+    <div id="img-41" class="main-img1 img-41"></div>
+    <div id="img-51" class="main-img1 img-51"></div>
+    <div id="img-61" class="main-img1 img-61"></div>
+    <div id="img-71" class="main-img1 img-71"></div>
+   
+  </div>
+  <div class="img-thumbnails1">
+    <label for="img-1-radio1"><div class="img-thumb1 img-11"></div></label>
+    <label for="img-2-radio1"><div class="img-thumb1 img-21"></div></label>
+    <label for="img-3-radio1"><div class="img-thumb1 img-31"></div></label>
+    <label for="img-4-radio1"><div class="img-thumb1 img-41"></div></label>
+    <label for="img-5-radio1"><div class="img-thumb1 img-51"></div></label>
+    <label for="img-6-radio1"><div class="img-thumb1 img-61"></div></label>
+    <label for="img-7-radio1"><div class="img-thumb1 img-71"></div></label>
+    
+  </div>
+      </div>
 
           </div>
 
@@ -230,23 +256,39 @@ const Landing = () => {
         <div className='fraccionamiento__container'>
           <div className='siider__fraccionamiento'>
 
-            <div class="container">
-            <ul class="slides">
-              <li id="slide21"><img src={granada} className='' alt=""/></li>
-              <li id="slide22"><img src={cocina} className='' alt=""/></li>
-              <li id="slide23"><img src={comedor} className='' alt=""/></li>
-              <li id="slide24"><img src={cuarto2} className='' alt=""/></li>
-              <li id="slide25"><img src={cuarto3} className='' alt=""/></li>
-            </ul>
-
-            <ul class="thumbnails">
-              <li><a href="#slide21"><img src={granada} className='' alt=""/></a></li>
-              <li><a href="#slide22"><img src={cocina} className='' alt=""/></a></li>
-              <li><a href="#slide23"><img src={comedor} className='' alt=""/></a></li>
-              <li><a href="#slide24"><img src={cuarto2} className='' alt=""/></a></li>
-              <li><a href="#slide25"><img src={cuarto3} className='' alt=""/></a></li>
-            </ul>
-            </div>
+          <div id="css-carousel2" >
+  <div class="main-img-cont2">
+    <input id="img-1-radio2" type="radio" name="selected-img2" checked/>
+    <input id="img-2-radio2" type="radio" name="selected-img2"/>
+    <input id="img-3-radio2" type="radio" name="selected-img2"/>
+    <input id="img-4-radio2" type="radio" name="selected-img2"/>
+    <input id="img-5-radio2" type="radio" name="selected-img2"/>
+    <input id="img-6-radio2" type="radio" name="selected-img2"/>
+    <input id="img-7-radio2" type="radio" name="selected-img2"/>
+    <input id="img-8-radio2" type="radio" name="selected-img2"/>
+   
+    <div id="img-12" class="main-img2 img-12"></div>
+    <div id="img-22" class="main-img2 img-22"></div>
+    <div id="img-32" class="main-img2 img-32"></div>
+    <div id="img-42" class="main-img2 img-42"></div>
+    <div id="img-52" class="main-img2 img-52"></div>
+    <div id="img-62" class="main-img2 img-62"></div>
+    <div id="img-72" class="main-img2 img-72"></div>
+    <div id="img-82" class="main-img2 img-82"></div>
+   
+  </div>
+  <div class="img-thumbnails2">
+    <label for="img-1-radio2"><div class="img-thumb2 img-12"></div></label>
+    <label for="img-2-radio2"><div class="img-thumb2 img-22"></div></label>
+    <label for="img-3-radio2"><div class="img-thumb2 img-32"></div></label>
+    <label for="img-4-radio2"><div class="img-thumb2 img-42"></div></label>
+    <label for="img-5-radio2"><div class="img-thumb2 img-52"></div></label>
+    <label for="img-6-radio2"><div class="img-thumb2 img-62"></div></label>
+    <label for="img-7-radio2"><div class="img-thumb2 img-72"></div></label>
+    <label for="img-8-radio2"><div class="img-thumb2 img-82"></div></label>
+    
+  </div>
+      </div>
 
           </div>
           <div className='container__fraccionamiento'>
@@ -371,23 +413,36 @@ const Landing = () => {
           </div>
           <div className='siider__fraccionamiento1'>
 
-            <div class="container1">
-            <ul class="slides1">
-              <li id="slide31"><img src={granada} className='' alt=""/></li>
-              <li id="slide32"><img src={cocina} className='' alt=""/></li>
-              <li id="slide33"><img src={comedor} className='' alt=""/></li>
-              <li id="slide34"><img src={cuarto2} className='' alt=""/></li>
-              <li id="slide35"><img src={cuarto3} className='' alt=""/></li>
-            </ul>
-
-            <ul class="thumbnails1">
-              <li><a href="#slide31"><img src={granada} className='' alt=""/></a></li>
-              <li><a href="#slide32"><img src={cocina} className='' alt=""/></a></li>
-              <li><a href="#slide33"><img src={comedor} className='' alt=""/></a></li>
-              <li><a href="#slide34"><img src={cuarto2} className='' alt=""/></a></li>
-              <li><a href="#slide35"><img src={cuarto3} className='' alt=""/></a></li>
-            </ul>
-            </div>
+          <div id="css-carousel3" >
+  <div class="main-img-cont3">
+    <input id="img-1-radio3" type="radio" name="selected-img3" checked/>
+    <input id="img-2-radio3" type="radio" name="selected-img3"/>
+    <input id="img-3-radio3" type="radio" name="selected-img3"/>
+    <input id="img-4-radio3" type="radio" name="selected-img3"/>
+    <input id="img-5-radio3" type="radio" name="selected-img3"/>
+    <input id="img-6-radio3" type="radio" name="selected-img3"/>
+    
+   
+    <div id="img-13" class="main-img3 img-13"></div>
+    <div id="img-23" class="main-img3 img-23"></div>
+    <div id="img-33" class="main-img3 img-33"></div>
+    <div id="img-43" class="main-img3 img-43"></div>
+    <div id="img-53" class="main-img3 img-53"></div>
+    <div id="img-63" class="main-img3 img-63"></div>
+   
+   
+  </div>
+  <div class="img-thumbnails3">
+    <label for="img-1-radio3"><div class="img-thumb3 img-13"></div></label>
+    <label for="img-2-radio3"><div class="img-thumb3 img-23"></div></label>
+    <label for="img-3-radio3"><div class="img-thumb3 img-33"></div></label>
+    <label for="img-4-radio3"><div class="img-thumb3 img-43"></div></label>
+    <label for="img-5-radio3"><div class="img-thumb3 img-53"></div></label>
+    <label for="img-6-radio3"><div class="img-thumb3 img-63"></div></label>
+    
+    
+  </div>
+      </div>
 
           </div>
 
@@ -403,23 +458,39 @@ const Landing = () => {
         <div className='fraccionamiento__container'>
           <div className='siider__fraccionamiento'>
 
-            <div class="container">
-            <ul class="slides">
-              <li id="slide41"><img src={granada} className='' alt=""/></li>
-              <li id="slide42"><img src={cocina} className='' alt=""/></li>
-              <li id="slide43"><img src={comedor} className='' alt=""/></li>
-              <li id="slide44"><img src={cuarto2} className='' alt=""/></li>
-              <li id="slide45"><img src={cuarto3} className='' alt=""/></li>
-            </ul>
-
-            <ul class="thumbnails">
-              <li><a href="#slide41"><img src={granada} className='' alt=""/></a></li>
-              <li><a href="#slide42"><img src={cocina} className='' alt=""/></a></li>
-              <li><a href="#slide43"><img src={comedor} className='' alt=""/></a></li>
-              <li><a href="#slide44"><img src={cuarto2} className='' alt=""/></a></li>
-              <li><a href="#slide45"><img src={cuarto3} className='' alt=""/></a></li>
-            </ul>
-            </div>
+          <div id="css-carousel4" >
+  <div class="main-img-cont4">
+    <input id="img-1-radio4" type="radio" name="selected-img4" checked/>
+    <input id="img-2-radio4" type="radio" name="selected-img4"/>
+    <input id="img-3-radio4" type="radio" name="selected-img4"/>
+    <input id="img-4-radio4" type="radio" name="selected-img4"/>
+    <input id="img-5-radio4" type="radio" name="selected-img4"/>
+    <input id="img-6-radio4" type="radio" name="selected-img4"/>
+    <input id="img-7-radio4" type="radio" name="selected-img4"/>
+    <input id="img-8-radio4" type="radio" name="selected-img4"/>
+    
+    <div id="img-14" class="main-img4 img-14"></div>
+    <div id="img-24" class="main-img4 img-24"></div>
+    <div id="img-34" class="main-img4 img-34"></div>
+    <div id="img-44" class="main-img4 img-44"></div>
+    <div id="img-54" class="main-img4 img-54"></div>
+    <div id="img-64" class="main-img4 img-64"></div>
+    <div id="img-74" class="main-img4 img-74"></div>
+    <div id="img-84" class="main-img4 img-84"></div>
+    
+  </div>
+  <div class="img-thumbnails4">
+    <label for="img-1-radio4"><div class="img-thumb4 img-14"></div></label>
+    <label for="img-2-radio4"><div class="img-thumb4 img-24"></div></label>
+    <label for="img-3-radio4"><div class="img-thumb4 img-34"></div></label>
+    <label for="img-4-radio4"><div class="img-thumb4 img-44"></div></label>
+    <label for="img-5-radio4"><div class="img-thumb4 img-54"></div></label>
+    <label for="img-6-radio4"><div class="img-thumb4 img-64"></div></label>
+    <label for="img-7-radio4"><div class="img-thumb4 img-74"></div></label>
+    <label for="img-8-radio4"><div class="img-thumb4 img-84"></div></label>
+    
+  </div>
+      </div>
 
           </div>
           <div className='container__fraccionamiento'>
@@ -544,23 +615,36 @@ const Landing = () => {
           </div>
           <div className='siider__fraccionamiento1'>
 
-            <div class="container1">
-            <ul class="slides1">
-              <li id="slide51"><img src={granada} className='' alt=""/></li>
-              <li id="slide52"><img src={cocina} className='' alt=""/></li>
-              <li id="slide53"><img src={comedor} className='' alt=""/></li>
-              <li id="slide54"><img src={cuarto2} className='' alt=""/></li>
-              <li id="slide55"><img src={cuarto3} className='' alt=""/></li>
-            </ul>
-
-            <ul class="thumbnails1">
-              <li><a href="#slide51"><img src={granada} className='' alt=""/></a></li>
-              <li><a href="#slide52"><img src={cocina} className='' alt=""/></a></li>
-              <li><a href="#slide53"><img src={comedor} className='' alt=""/></a></li>
-              <li><a href="#slide54"><img src={cuarto2} className='' alt=""/></a></li>
-              <li><a href="#slide55"><img src={cuarto3} className='' alt=""/></a></li>
-            </ul>
-            </div>
+          <div id="css-carousel5" >
+  <div class="main-img-cont5">
+    <input id="img-1-radio5" type="radio" name="selected-img5" checked/>
+    <input id="img-2-radio5" type="radio" name="selected-img5"/>
+    <input id="img-3-radio5" type="radio" name="selected-img5"/>
+    <input id="img-4-radio5" type="radio" name="selected-img5"/>
+    <input id="img-5-radio5" type="radio" name="selected-img5"/>
+    <input id="img-6-radio5" type="radio" name="selected-img5"/>
+    <input id="img-7-radio5" type="radio" name="selected-img5"/>
+   
+    <div id="img-15" class="main-img5 img-15"></div>
+    <div id="img-25" class="main-img5 img-25"></div>
+    <div id="img-35" class="main-img5 img-35"></div>
+    <div id="img-45" class="main-img5 img-45"></div>
+    <div id="img-55" class="main-img5 img-55"></div>
+    <div id="img-65" class="main-img5 img-65"></div>
+    <div id="img-75" class="main-img5 img-75"></div>
+   
+  </div>
+  <div class="img-thumbnails5">
+    <label for="img-1-radio5"><div class="img-thumb5 img-15"></div></label>
+    <label for="img-2-radio5"><div class="img-thumb5 img-25"></div></label>
+    <label for="img-3-radio5"><div class="img-thumb5 img-35"></div></label>
+    <label for="img-4-radio5"><div class="img-thumb5 img-45"></div></label>
+    <label for="img-5-radio5"><div class="img-thumb5 img-55"></div></label>
+    <label for="img-6-radio5"><div class="img-thumb5 img-65"></div></label>
+    <label for="img-7-radio5"><div class="img-thumb5 img-75"></div></label>
+    
+  </div>
+      </div>
 
           </div>
 
@@ -578,23 +662,53 @@ const Landing = () => {
         <div className='fraccionamiento__container'>
           <div className='siider__fraccionamiento'>
 
-            <div class="container">
-            <ul class="slides">
-              <li id="slide61"><img src={granada} className='' alt=""/></li>
-              <li id="slide62"><img src={cocina} className='' alt=""/></li>
-              <li id="slide63"><img src={comedor} className='' alt=""/></li>
-              <li id="slide64"><img src={cuarto2} className='' alt=""/></li>
-              <li id="slide65"><img src={cuarto3} className='' alt=""/></li>
-            </ul>
-
-            <ul class="thumbnails">
-              <li><a href="#slide61"><img src={granada} className='' alt=""/></a></li>
-              <li><a href="#slide62"><img src={cocina} className='' alt=""/></a></li>
-              <li><a href="#slide63"><img src={comedor} className='' alt=""/></a></li>
-              <li><a href="#slide64"><img src={cuarto2} className='' alt=""/></a></li>
-              <li><a href="#slide65"><img src={cuarto3} className='' alt=""/></a></li>
-            </ul>
-            </div>
+          <div id="css-carousel6" >
+  <div class="main-img-cont6">
+    <input id="img-1-radio6" type="radio" name="selected-img6" checked/>
+    <input id="img-2-radio6" type="radio" name="selected-img6"/>
+    <input id="img-3-radio6" type="radio" name="selected-img6"/>
+    <input id="img-4-radio6" type="radio" name="selected-img6"/>
+    <input id="img-5-radio6" type="radio" name="selected-img6"/>
+    <input id="img-6-radio6" type="radio" name="selected-img6"/>
+    <input id="img-7-radio6" type="radio" name="selected-img6"/>
+    <input id="img-8-radio6" type="radio" name="selected-img6"/>
+    <input id="img-9-radio6" type="radio" name="selected-img6"/>
+    <input id="img-10-radio6" type="radio" name="selected-img6"/>
+    <input id="img-11-radio6" type="radio" name="selected-img6"/>
+    <input id="img-12-radio6" type="radio" name="selected-img6"/>
+    
+   
+    <div id="img-16" class="main-img6 img-16"></div>
+    <div id="img-26" class="main-img6 img-26"></div>
+    <div id="img-36" class="main-img6 img-36"></div>
+    <div id="img-46" class="main-img6 img-46"></div>
+    <div id="img-56" class="main-img6 img-56"></div>
+    <div id="img-66" class="main-img6 img-66"></div>
+    <div id="img-76" class="main-img6 img-76"></div>
+    <div id="img-86" class="main-img6 img-86"></div>
+    <div id="img-96" class="main-img6 img-96"></div>
+    <div id="img-106" class="main-img6 img-106"></div>
+    <div id="img-116" class="main-img6 img-116"></div>
+    <div id="img-126" class="main-img6 img-126"></div>
+   
+  </div>
+  <div class="img-thumbnails6">
+    <label for="img-1-radio6"><div class="img-thumb6 img-16"></div></label>
+    <label for="img-2-radio6"><div class="img-thumb6 img-26"></div></label>
+    <label for="img-3-radio6"><div class="img-thumb6 img-36"></div></label>
+    <label for="img-4-radio6"><div class="img-thumb6 img-46"></div></label>
+    <label for="img-5-radio6"><div class="img-thumb6 img-56"></div></label>
+    <label for="img-6-radio6"><div class="img-thumb6 img-66"></div></label>
+    <label for="img-7-radio6"><div class="img-thumb6 img-76"></div></label>
+    <label for="img-8-radio6"><div class="img-thumb6 img-86"></div></label>
+    <label for="img-9-radio6"><div class="img-thumb6 img-96"></div></label>
+    <label for="img-10-radio6"><div class="img-thumb6 img-106"></div></label>
+    <label for="img-11-radio6"><div class="img-thumb6 img-116"></div></label>
+    <label for="img-12-radio6"><div class="img-thumb6 img-126"></div></label>
+    
+    
+  </div>
+      </div>
 
           </div>
           <div className='container__fraccionamiento'>
@@ -690,6 +804,8 @@ const Landing = () => {
           <p className='sub1'>Drop Intelligence Business</p>
         </div>
       </div>
+      
+      
       
 
     </div>
