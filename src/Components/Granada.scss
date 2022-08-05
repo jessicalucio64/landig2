@@ -28,7 +28,7 @@
         
         .siider__fraccionamiento{
             display: flex;
-            width: 300%;
+            width: 100%;
         }
         .container__fraccionamiento{
             margin-top: -15%;
@@ -206,7 +206,7 @@
         
         .siider__fraccionamiento{
             display: flex;
-            width: 300%;
+            width: 100%;
         }
         .container__fraccionamiento{
             margin-top: -13%;
@@ -229,7 +229,7 @@
                     letter-spacing: 1px;
                     font-family: var(--ops);
                     color: var(--VERDE_OSCURO);
-                    margin-bottom: 5%;
+                    margin-bottom: 1%;
                 }
                 .especificaciones__fraccionamiento{
                     display: flex;
@@ -302,6 +302,7 @@
     .fraccionamiento__container1{
         width: 100%;
         padding-left: 10%;
+        padding-top: -5%;
         display: flex;
         justify-content: center;
         
@@ -399,6 +400,7 @@
     align-items: center;
     margin-top: 2%;
     padding-top: 3%;
+    margin-left: -4%;
     .fraccionamiento__container{
         width: 100%;
         padding-left: 10%;
@@ -408,19 +410,20 @@
         
         .siider__fraccionamiento{
             display: flex;
-            width: 300%;
+            width: 100%;
         }
         .container__fraccionamiento{
             margin-top: -15%;
+           
 
             
             .container__fraccionamiento__texto{
                 border-radius: 5% 0% 0% 5%;
                 background: white;
                 box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
-                padding: 10%;
+                padding: 5%;
                 width: 180%;
-                margin-left: -70%;
+                margin-left: -50%;
                 position: relative;
                 z-index: 10;
                 
@@ -519,7 +522,7 @@
         
         .siider__fraccionamiento1{
             display: flex;
-            width: 300%;
+            width: 100%;
         }
         .container__fraccionamiento1{
             margin-top: -15%;
@@ -625,7 +628,7 @@
         
         .siider__fraccionamiento{
             display: flex;
-            width: 300%;
+            width: 100%;
         }
         .container__fraccionamiento{
             margin-top: -15%;
@@ -818,121 +821,145 @@
         display: none;
     }
     .container__fraccionamiento{
-    
-    .fraccionamiento__container{
-        
-        flex-direction: column;
-        
-        .siider__fraccionamiento{
+        width: 75%;
+        margin-left: -15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        .fraccionamiento__container{
+            width: 125%;
+            padding-left: 10%;
             display: flex;
-            width: 100%;
-        }
-        .container__fraccionamiento{
-            margin-top: 1%;
-
+            justify-content: center;
+            flex-direction: column;
             
-            .container__fraccionamiento__texto{
-                border-radius: 5% 5% 5% 5%;
+            
+            .siider__fraccionamiento{
+                display: flex;
                 width: 100%;
-                margin-left: -3%;
-                margin-right: 6%;
-                .especificaciones__fraccionamiento0{
-                    display: flex;
-                    gap: 20px;
+            }
+            .container__fraccionamiento{
+                
+                margin-left: 280px;
+                
+    
+                
+                .container__fraccionamiento__texto{
+                    border-radius: 5% 5% 5% 5%;
+                    background: white;
+                    box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+                    padding: -5%;
+                    width: 50px;
+                    margin-left: -100%;
+                    position: relative;
+                    z-index: 10;
+                    margin-top: 20%;
                     
-                    margin-left: 50%;
-                    margin-top: -39%;
-                    .icono__fraccionamiento{
-                        width: 10%;
+                   
+                    .titulo__fraccionamiento{
+                        font-size: 3em;
+                        font-weight: 800;
+                        letter-spacing: 1px;
+                        font-family: var(--ops);
+                        color: var(--VERDE_OSCURO);
+                        margin-bottom: 5%;
                     }
-                    .especificaciones__texto_fraccionamiento{
+                    .especificaciones__fraccionamiento{
                         display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        .especificaciones__texto__titulo{
-                            color: var(--GRIS_CLARO);
-                            font-family: var(--ops);
-                            font-size: 0.9em;
-                            font-weight: 800;
-                          }
-                          .especificaciones__texto__subtitulo{
-                            color: var(--NEGRO);
-                            font-family: var(--ops1);
-                            font-size: 0.9em;
-                            font-weight: 800;
-                            
-                          }
+                        gap: 20px;
+                        margin-bottom: 20px;
+                        .icono__fraccionamiento{
+                            width: 10%;
+                        }
+                        .especificaciones__texto_fraccionamiento{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            .especificaciones__texto__titulo{
+                                color: var(--GRIS_CLARO);
+                                font-family: var(--ops);
+                                font-size: 0.9em;
+                                font-weight: 800;
+                              }
+                              .especificaciones__texto__subtitulo{
+                                color: var(--NEGRO);
+                                font-family: var(--ops1);
+                                font-size: 0.9em;
+                                font-weight: 800;
+                                
+                              }
+                        }
                     }
+                    .especificaciones__fraccionamiento1{
+                        display: flex;
+                        gap: 20px;
+                        margin-bottom: 20px;
+                        margin-left: 300px;
+                        margin-top: -250px;
+                        .icono__fraccionamiento{
+                            width: 20%;
+                        }
+                        .especificaciones__texto_fraccionamiento{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            .especificaciones__texto__titulo{
+                                color: var(--GRIS_CLARO);
+                                font-family: var(--ops);
+                                font-size: 0.9em;
+                                font-weight: 800;
+                              }
+                              .especificaciones__texto__subtitulo{
+                                color: var(--NEGRO);
+                                font-family: var(--ops1);
+                                font-size: 0.9em;
+                                font-weight: 800;
+                                
+                              }
+                        }
+                    }
+                    .especificaciones__fraccionamiento2{
+                        display: flex;
+                        gap: 20px;
+                        margin-bottom: 300px;
+                        margin-left: 300px;
+                        margin-top: -200px;
+                        .icono__fraccionamiento{
+                            width: 20%;
+                        }
+                        .especificaciones__texto_fraccionamiento{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            .especificaciones__texto__titulo{
+                                color: var(--GRIS_CLARO);
+                                font-family: var(--ops);
+                                font-size: 0.9em;
+                                font-weight: 800;
+                              }
+                              .especificaciones__texto__subtitulo{
+                                color: var(--NEGRO);
+                                font-family: var(--ops1);
+                                font-size: 0.9em;
+                                font-weight: 800;
+                                
+                              }
+                        }
+                    }
+                    
                     
                 }
                 
-                .especificaciones__fraccionamiento1{
-                    display: flex;
-                    gap: 20px;
-                    
-                    margin-left: 50%;
-                    margin-top: -39%;
-                    .icono__fraccionamiento{
-                        width: 17%;
-                    }
-                    .especificaciones__texto_fraccionamiento{
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        .especificaciones__texto__titulo{
-                            color: var(--GRIS_CLARO);
-                            font-family: var(--ops);
-                            font-size: 0.9em;
-                            font-weight: 800;
-                          }
-                          .especificaciones__texto__subtitulo{
-                            color: var(--NEGRO);
-                            font-family: var(--ops1);
-                            font-size: 0.9em;
-                            font-weight: 800;
-                            
-                          }
-                    }
-                    
-                }
-                .especificaciones__fraccionamiento2{
-                    display: flex;
-                    gap: 20px;
-                    margin-top: -2%;
-                    margin-left: 50%;
-                    margin-bottom: 20%;
-                    
-                    .icono__fraccionamiento{
-                        width: 17%;
-                    }
-                    .especificaciones__texto_fraccionamiento{
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        .especificaciones__texto__titulo{
-                            color: var(--GRIS_CLARO);
-                            font-family: var(--ops);
-                            font-size: 0.9em;
-                            font-weight: 800;
-                          }
-                          .especificaciones__texto__subtitulo{
-                            color: var(--NEGRO);
-                            font-family: var(--ops1);
-                            font-size: 0.9em;
-                            font-weight: 800;
-                            
-                          }
-                    }
-                    
-                }
+        
             }
-            
     
         }
-
+        
+        
     }
     
-    }
     .container__fraccionamiento1{
         
         .fraccionamiento__container1{
@@ -941,11 +968,12 @@
             
             .siider__fraccionamiento1{
                 display: flex;
-                width: 100%;
+                width: 105%;
+                margin-left: -2%;
             }
             .container__fraccionamiento1{
                 margin-top: -1%;
-                margin-bottom: 1%;
+                margin-bottom: 8%;
     
                 
                 .container__fraccionamiento__texto1{
@@ -967,7 +995,7 @@
                 
                     .especificaciones__fraccionamiento1{
                         width: 95%;    
-                        margin-left: -13%;
+                        margin-left: -20%;
                         .icono__fraccionamiento1{
                             width: 10%;
                         }
@@ -977,7 +1005,7 @@
                         display: flex;
                         gap: 20px;
                         
-                        margin-left: 50%;
+                        margin-left: 20%;
                         margin-top: -39%;
                         .icono__fraccionamiento{
                             width: 900px;
@@ -1006,7 +1034,7 @@
                         display: flex;
                         gap: 20px;
                         margin-top: -2%;
-                        margin-left: 50%;
+                        margin-left: 20%;
                         margin-bottom: 20%;
                         
                         .icono__fraccionamiento{
@@ -1204,86 +1232,12 @@
         }
         
     }
-    .container__fraccionamiento4{
-        
-        .fraccionamiento__container{
-            flex-direction: column;
-            
-            .siider__fraccionamiento{
-                display: flex;
-                width: 100%;
-            }
-            .container__fraccionamiento{
-                margin-top: 1%;
     
-                .container__fraccionamiento__texto{
-                    border-radius: 5% 5% 5% 5%;
-                    background: white;
-                    box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
-                    padding: 10%;
-                    width: 100%;
-                    margin-left: -2%;
-                    position: relative;
-                    z-index: 10;
-                    margin-right: 6%;
-                    
-                   
-                    .titulo__fraccionamiento{
-                        font-size: 3em;
-                        font-weight: 800;
-                        letter-spacing: 1px;
-                        font-family: var(--ops);
-                        color: var(--VERDE_OSCURO);
-                        margin-bottom: 5%;
-                    }
-                    .especificaciones__fraccionamiento{
-                        display: flex;
-                        gap: 30px;
-                        margin-bottom: 10px;
-                        .icono__fraccionamiento{
-                            width: 10%;
-                        }
-                        .especificaciones__texto_fraccionamiento{
-                            display: flex;
-                            gap: 5px;
-                            flex-direction: column;
-                            justify-content: center;
-                           
-                            .especificaciones__texto__titulo1{
-                                padding-right:40px ;
-                                color: var(--GRIS_CLARO);
-                                font-family: var(--ops);
-                                font-size: 0.9em;
-                                font-weight: 800;
-                            }
-                            .especificaciones__texto__titulo{
-                                color: var(--GRIS_CLARO);
-                                font-family: var(--ops);
-                                font-size: 0.9em;
-                                font-weight: 800;
-                              }
-                              .especificaciones__texto__subtitulo{
-                                color: var(--NEGRO);
-                                font-family: var(--ops1);
-                                font-size: 0.9em;
-                                font-weight: 800;
-                                
-                              }
-                        }
-                    }
-                }
-                
-        
-            }
-    
-        }
-        
-        
-    }
     .container__fraccionamiento5{
         
         .fraccionamiento__container1{
             flex-direction: column;
+            
             
             
             .siider__fraccionamiento1{
@@ -1355,28 +1309,64 @@
         }
         
     }
-    .container__fraccionamiento6{
+   
+    
+    
+}
+@media screen and (max-width: 1770px){
+
+    .container__fraccionamiento{
         
         .fraccionamiento__container{
-            flex-direction: column;
+          
             
-            
-            .siider__fraccionamiento{
-                display: flex;
-                width: 100%;
-            }
             .container__fraccionamiento{
-                margin-top: 1%;
+               
     
                 
                 .container__fraccionamiento__texto{
-                    border-radius: 5% 5% 5% 5%;
+                   
+                    width: 110%;
+                    margin-left: -30%;
+                    height: 450px;
+                   
+                    
+                }
+                
+        
+            }
+    
+        }
+        
+        
+    }
+    .container__fraccionamiento4{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2%;
+        padding-top: 3%;
+        margin-left: -4%;
+        .fraccionamiento__container{
+            width: 100%;
+            padding-left: 10%;
+            display: flex;
+            justify-content: center;
+            
+            .container__fraccionamiento{
+                margin-top: -15%;
+               
+    
+                
+                .container__fraccionamiento__texto{
+                    border-radius: 5% 0% 0% 5%;
                     background: white;
                     box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
-                    padding: 10%;
-                    width: 100%;
-                    margin-left: 1%;
-                    margin-right: 5%;
+                    padding: 5%;
+                    width: 200%;
+                    margin-left: -50%;
+                    margin-right: -15%;
                     position: relative;
                     z-index: 10;
                     
@@ -1415,14 +1405,6 @@
                                 font-size: 0.9em;
                                 font-weight: 800;
                               }
-                            .especificaciones__texto__titulo2{
-                                padding-right:50px ;
-                                color: var(--GRIS_CLARO);
-                                font-family: var(--ops);
-                                font-size: 0.9em;
-                                font-weight: 800;
-    
-                              }
                               .especificaciones__texto__subtitulo{
                                 color: var(--NEGRO);
                                 font-family: var(--ops1);
@@ -1430,7 +1412,6 @@
                                 font-weight: 800;
                                 
                               }
-                              
                         }
                     }
                 }
@@ -1442,6 +1423,431 @@
         
         
     }
+    .decoracionrec{
+        width: 15%;
+        margin-left: 85%;
+        margin-top: -10%;
+        margin-bottom: 5%;
+        
+        .decoracionrec__verde{
+            width: 80%;
+            margin-top: -7%;
+            margin-left: -20%;
+            height: 3vh;
+            background-color:#0a4436;
+            position: relative;
+            z-index: 1;
     
+        }
+        .decoracionrec__dorado{
+            width: 100%;
+            height: 6vh;
+            background: linear-gradient(to right, #987013, #ffea80, #ffea80,#987013); 
     
+        }
+    }
+    .container__fraccionamiento3{
+        
+        .fraccionamiento__container1{
+          
+            .container__fraccionamiento1{
+                margin-top: -5%;
+    
+                
+               
+        
+            }
+    
+        }
+        
+    }
+}
+@media screen and (max-width: 1803px){
+    
+    .container__fraccionamiento4{
+      
+        .fraccionamiento__container{
+        
+            .container__fraccionamiento{
+                margin-top: -15%;
+               
+    
+                
+                .container__fraccionamiento__texto{
+                    border-radius: 5% 0% 0% 5%;
+                    background: white;
+                    box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+                    padding: 10%;
+                    width: 160%;
+                    margin-left: -100%;
+                    margin-right: -40%;
+                    position: relative;
+                    z-index: 10;
+                    margin-top: 20%;
+                    
+                   
+                    
+                }
+                
+        
+            }
+    
+        }
+        
+        
+    }
+    .container__fraccionamiento6{
+        
+        .fraccionamiento__container{
+          
+            .container__fraccionamiento{
+                margin-top: -15%;
+    
+                
+                .container__fraccionamiento__texto{
+                    border-radius: 5% 0% 0% 5%;
+                    background: white;
+                    box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+                    padding: 10%;
+                    width: 160%;
+                    margin-left: -100%;
+                    margin-right: -18%;
+                    position: relative;
+                    z-index: 10;
+                    margin-top: 20%;
+                    
+                   
+                
+                   
+                }
+                
+        
+            }
+    
+        }
+        
+        
+    }
+}
+@media screen and (max-width: 1756px){
+    
+    .container__fraccionamiento4{
+      
+        .fraccionamiento__container{
+        
+            .container__fraccionamiento{
+                margin-top: -15%;
+               
+    
+                
+                .container__fraccionamiento__texto{
+                    border-radius: 5% 0% 0% 5%;
+                    background: white;
+                    box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+                    padding: 10%;
+                    width: 160%;
+                    margin-left: -100%;
+                    margin-right: -20%;
+                    position: relative;
+                    z-index: 10;
+                    margin-top: 20%;
+                    
+                   
+                    
+                }
+                
+        
+            }
+    
+        }
+        
+        
+    }
+
+}
+@media screen and (max-width: 1698px){
+    .container__fraccionamiento4{
+      
+        .fraccionamiento__container{
+        
+            .container__fraccionamiento{
+                margin-top: -15%;
+               
+               
+    
+                
+                .container__fraccionamiento__texto{
+                    border-radius: 5% 0% 0% 5%;
+                    background: white;
+                    box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+                    padding: 10%;
+                    width: 160%;
+                    margin-left: -100%;
+                    margin-right: -16%;
+                    position: relative;
+                    z-index: 10;
+                    margin-top: 20%;
+                    
+                   
+                    
+                }
+                
+        
+            }
+    
+        }
+        
+        
+    }
+    .container__fraccionamiento6{
+        
+        .fraccionamiento__container{
+          
+            .container__fraccionamiento{
+                margin-top: -15%;
+    
+                
+                .container__fraccionamiento__texto{
+                    border-radius: 5% 0% 0% 5%;
+                    background: white;
+                    box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+                    padding: 10%;
+                    width: 160%;
+                    margin-left: -100%;
+                    margin-right: -15%;
+                    position: relative;
+                    z-index: 10;
+                    margin-top: 20%;
+                    
+                   
+                
+                   
+                }
+                
+        
+            }
+    
+        }
+        
+        
+    }
+
+}
+@media screen and (max-width: 1684px){
+    .container__fraccionamiento4{
+      
+        .fraccionamiento__container{
+        
+            .container__fraccionamiento{
+                margin-top: -15%;
+               
+               
+    
+                
+                .container__fraccionamiento__texto{
+                    border-radius: 5% 0% 0% 5%;
+                    background: white;
+                    box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+                    padding: 10%;
+                    width: 160%;
+                    margin-left: -105%;
+                    margin-right: -21%;
+                    position: relative;
+                    z-index: 10;
+                    margin-top: 20%;
+                    
+                   
+                    
+                }
+                
+        
+            }
+    
+        }
+        
+        
+    }
+    .container__fraccionamiento6{
+        
+        .fraccionamiento__container{
+          
+            .container__fraccionamiento{
+                margin-top: -15%;
+                
+    
+                
+                .container__fraccionamiento__texto{
+                    border-radius: 5% 0% 0% 5%;
+                    background: white;
+                    box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+                    padding: 10%;
+                    width: 160%;
+                    margin-left: -105%;
+                    margin-right: -21%;
+                    position: relative;
+                    z-index: 10;
+                    margin-top: 20%;
+                    
+                   
+                
+                   
+                }
+                
+        
+            }
+    
+        }
+        
+        
+    }
+
+    .decoracionrec2{
+        width: 20%;
+        margin-left: 80%;
+        margin-top: -10%;
+        margin-bottom: 5%;
+        
+        .decoracionrec__verde{
+            width: 80%;
+            margin-top: -7%;
+            margin-left: 20%;
+            height: 4vh;
+            background-color:#0a4436;
+            position: relative;
+            z-index: 1;
+    
+        }
+        .decoracionrec__dorado{
+            width: 60%;
+            height: 6vh;
+            margin-left: 40%;
+            background: linear-gradient(to right, #987013, #ffea80, #ffea80,#987013); 
+    
+        }
+    }
+    .decoracionrec3{
+        width: 20%;
+        margin-left: -80%;
+        margin-top: -8%;
+        
+        .decoracionrec__verde{
+            width: 90%;
+            margin-top: -7%;
+            height: 5vh;
+            background-color:#0a4436;
+            position: relative;
+            z-index: 1;
+    
+        }
+        .decoracionrec__dorado{
+            width: 60%;
+            height: 5vh;
+            background: linear-gradient(to right, #987013, #ffea80, #ffea80,#987013); 
+    
+        }
+    }
+
+}
+@media screen and (max-width: 1631px){
+    .container__fraccionamiento{
+        
+        .fraccionamiento__container{
+            
+            .container__fraccionamiento{
+                margin-top: -15%;
+    
+                
+                .container__fraccionamiento__texto{
+                    border-radius: 5% 0% 0% 5%;
+                    background: white;
+                    box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+                    padding: 10%;
+                    width: 190%;
+                    margin-left: -50%;
+                    position: relative;
+                    z-index: 10;
+                    
+                  
+                }
+                
+        
+            }
+    
+        }
+        
+        
+    }
+    
+    .container__fraccionamiento4{
+      
+      
+        .fraccionamiento__container{
+        
+            .container__fraccionamiento{
+                margin-top: -15%;
+               
+               
+    
+                
+                .container__fraccionamiento__texto{
+                    border-radius: 5% 0% 0% 5%;
+                    background: white;
+                    box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+                    padding: 10%;
+                    width: 150%;
+                    margin-left: -100%;
+                    margin-right: 25%;
+                    position: relative;
+                    z-index: 10;
+                    margin-top: 20%;
+                    
+                   
+                    
+                }
+                
+        
+            }
+    
+        }
+        
+        
+    }
+    .container__fraccionamiento6{
+        
+        
+        .fraccionamiento__container{
+          
+            .container__fraccionamiento{
+                margin-top: -15%;
+                
+    
+                
+                .container__fraccionamiento__texto{
+                    border-radius: 5% 0% 0% 5%;
+                    background: white;
+                    box-shadow: -4px 4px 34px -8px rgba(0,0,0,0.75);
+                    padding: 5%;
+                    width: 150%;
+                    margin-left: -150%;
+                    margin-right: 25%;
+                    position: relative;
+                    z-index: 10;
+                    margin-top: 20%;
+                    
+                   
+                
+                   
+                }
+                
+        
+            }
+    
+        }
+        
+        
+    }
+
+
+    
+
 }

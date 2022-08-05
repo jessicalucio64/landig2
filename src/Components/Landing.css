@@ -396,11 +396,7 @@ img {
   height: auto;
   max-width: 100%;
 }
-@media screen and (max-width: 991px){
-  .decoracion{
-    display: none;
-  }
-}
+
 #css-carousel{
   
   margin-top: -8%;
@@ -626,11 +622,13 @@ label{
   width: 100%;
   height: 120%;
   margin-left: -5%;
+  
  
 }
 
 #css-carousel2 input{
   display: none;
+ 
 }
 
 .main-img-cont2{
@@ -642,8 +640,8 @@ label{
 }
 
 .main-img2{
-  width: 97.4%;
-  height: 680px;
+  width: 100%;
+  height: 650px;
   background-position: center;
   background-size: cover;
   top: 0px;
@@ -1068,7 +1066,7 @@ label{
 }
 
 .main-img6{
-  width: 95.4%;
+  width: 100%;
   height: 680px;
   background-position: center;
   background-size: cover;
@@ -1179,4 +1177,128 @@ label{
 }
 .img-126{
   background-image: url('../media/madrid/terraza-hacienda-valbuena-madrid.webp')
+}
+@media screen and (max-width: 991px){
+
+  .boton__mapa{
+    display: flex;
+    font-family: var(--ops); 
+    background: none;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 3vh;
+    border: var(--VERDE_CLARO) 2px solid;
+    background-color: var(--VERDE_OSCURO);
+    margin-top: 1%;
+    border-radius: 12px;
+  
+  
+  }
+  .titulo__container{
+    margin-top: -5%;
+  }
+  .contanier__titulos{
+   margin-bottom: -10%;
+  
+  }
+  .container2{
+    font-size: 0.7em;
+  }
+  .decoracion{
+    display: none;
+  }
+  .img-8{
+    display: none;
+  }
+  .img-9{
+    display: none;
+  }
+  .img-71{
+    display: none;
+  }
+  .img-72{
+    display: none;
+  }
+  .img-82{
+    display: none;
+  }
+  .img-53{
+    display: none;
+  }
+  .img-63{
+    display: none;
+  }
+  .img-64{
+    display: none;
+  }
+  .img-74{
+    display: none;
+  }
+  .img-84{
+    display: none;
+  }
+  .img-75{
+    display: none;
+  }
+
+  .img-106{
+    display: none;
+  }
+  .img-116{
+    display: none;
+  }
+  .img-126{
+    display: none;
+  }
+}
+@media screen and (max-width: 1770px){
+  .container__textos{
+    margin-top: 17%;
+    width: 60%;
+    margin-left: 10%;
+  
+  }
+  .boton__whatsapp{
+    
+    width: 40%;
+  
+  
+  }
+  .decoracion{
+    width: 40%;
+    margin-left: -28%;
+    margin-top: -1%;
+  }
+  .decoracion__verde{
+    width: 4%;
+    
+    height: 4vh;
+  
+  }
+  .decoracion__dorado{
+    width: 20%;
+    height: 5vh;
+   
+  }
+  #css-carousel2{
+  
+    margin-top: 3%;
+    width: 100%;
+    height: 100%;
+    margin-left: -5%;
+    margin-bottom:10% ;
+   
+  }
+  
+}
+@media screen and (max-width: 1803px){
+  .container__textos{
+    margin-top: 15%;
+    width: 60%;
+    margin-left: 10%;
+  
+  }
+
 }
